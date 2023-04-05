@@ -14,6 +14,10 @@ variable "project" {
   type = string
 }
 
+variable "execution" {
+  type = string
+}
+
 variable "environments" {
   type = list(string)
 
