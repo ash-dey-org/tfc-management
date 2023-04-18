@@ -4,6 +4,4 @@
 
 environments = ["dev", "tst", "uat", "prd"]
 tags = ["tfe","core-infrastructure","azure"]
-execution = "remote"
-
-
+execution = "local"
