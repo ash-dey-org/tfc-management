@@ -16,7 +16,3 @@ variable "tfc-management" {
 variable "variable_set" {
   type    = string
 }
-
-variable "top-project-id" {
-  type = string
-}

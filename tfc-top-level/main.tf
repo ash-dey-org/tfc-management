@@ -1,4 +1,9 @@
 
+data "tfe_project" "top-proj" {
+  name = "prj-${var.tfc-management}"
+  organization = var.tfc-organization
+}
+
 data "tfe_variable_set" "my-var-set" {
   name         = var.variable_set
   organization = var.tfc-organization
@@ -11,7 +16,7 @@ resource "tfe_workspace" "tfc-app-Workspace" {
   name         = "${var.tfc-management}-${var.projects[count.index].name}"
   organization = var.tfc-organization
   tag_names    = var.projects[count.index].tags
-  project_id   = var.top-project-id
+  project_id   = data.tfe_project.top-proj.id
 }
 
 resource "tfe_workspace_variable_set" "test" {

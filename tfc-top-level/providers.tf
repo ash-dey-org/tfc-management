@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    tfe = ">= 0.42"
+    tfe = ">= 0.44"
   }
 
   required_version = ">= 1.3.0"
