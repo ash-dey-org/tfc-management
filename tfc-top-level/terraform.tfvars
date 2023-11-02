@@ -15,5 +15,8 @@ projects = [
 
     {name = "tf-azure-networking",
     tags = ["tfe", "network", "core-infrastructure"]
+    },
+    {name = "tf-azure-shared-core",
+    tags = ["tfe", "network", "core-infrastructure"]
     }
 ]
