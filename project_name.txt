@@ -1,1 +1,1 @@
-tf-azure-shared-core
+tf-defender-report

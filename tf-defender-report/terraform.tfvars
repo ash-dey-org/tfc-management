@@ -3,5 +3,5 @@
 # dev/tst/uat/prd workspaces that will be created for the app
 
 environments = ["dev", "tst", "uat", "prd"]
-tags = ["tfe","defender", "report", "azure"]
+tags = ["tfe","shared-core-infrastructure","azure"]
 execution = "remote"
