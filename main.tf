@@ -15,6 +15,7 @@ resource "tfe_workspace" "a-workspace" {
   tag_names      = var.tags
   project_id     = tfe_project.project.id
   execution_mode = var.execution
+  structured_run_output_enabled = false
   /*
   vcs_repo {
     identifier     = "${var.vcs_organization}/${var.project}"
