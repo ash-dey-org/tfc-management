@@ -9,8 +9,8 @@ variable_set = "tfc-management-token"
 # tags - as appropriate for the project
 
 projects = [
-    {name = "example",
-    tags = ["tfe", "itops", "sample"]
+    {name = "tf-azure-sandbox",
+    tags = ["tfe", "test", "sandbox"]
     },
 
     {name = "tf-azure-networking",
