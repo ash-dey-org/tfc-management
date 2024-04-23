@@ -1,1 +1,1 @@
-tf-defender-report
+tf-azure-sandbox
